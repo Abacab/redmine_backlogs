@@ -53,7 +53,7 @@ fr:
 
   event_sprint_summary: "{{project}}: {{summary}}"
   field_assigned_to: Assigned To
-  field_backlogs_issue_type: Type de carnet
+  field_backlogs_issue_type: Type de backlog
   field_blocks: Blocks
   field_initial_story_points: "Nombre de points initial du sc\xC3\xA9nario"
   field_name: Nom
