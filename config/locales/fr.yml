@@ -5,19 +5,19 @@ fr:
   backlogs_card_specification: "Types d'\xC3\xA9tiquettes pour impression de cartes"
   backlogs_impediment: Obstacle
   backlogs_points_burn_direction: progression des points
-  backlogs_product_backlog: Carnet de produit
+  backlogs_product_backlog: Backlog de produit
   backlogs_sprints: Sprints
-  backlogs_statistics_active: Project show activity
-  backlogs_statistics_active_failed: Project shows no activity
-  backlogs_statistics_committed_velocity_stable: Committed velocity is stable across sprints
-  backlogs_statistics_committed_velocity_stable_failed: Committed velocity is not stable across sprints
-  backlogs_statistics_product_backlog_filled: Product backlog has stories
-  backlogs_statistics_product_backlog_filled_failed: Product backlog is empty
-  backlogs_statistics_product_backlog_sized: The stories at the top of the product backlog have sizes
-  backlogs_statistics_product_backlog_sized_failed: The top of the product backlog has unsized stories
-  backlogs_statistics_sizing_consistent: Story sizes are stable against their estimates
-  backlogs_statistics_sizing_consistent_failed: Story sizes vary against their estimates
-  backlogs_statistics_sizing_stddev: "Standard deviation on hours vs. points: %{value} hours"
+  backlogs_statistics_active: "Le projet a au moins une activité"
+  backlogs_statistics_active_failed: "Le projet n'a aucune activité"
+  backlogs_statistics_committed_velocity_stable: "La velocité générée est stable dans les sprints"
+  backlogs_statistics_committed_velocity_stable_failed: "La velocité générée n'est pas stable dans les sprints"
+  backlogs_statistics_product_backlog_filled: "Le backlog de produit contient des stories"
+  backlogs_statistics_product_backlog_filled_failed: "Le backlog de produit est vide"
+  backlogs_statistics_product_backlog_sized: "Les stories au sommet du backlog de produit sont dimensionnées"
+  backlogs_statistics_product_backlog_sized_failed: "Le sommet du backlog de produit a des stories non dimensionnées"
+  backlogs_statistics_sizing_consistent: "Les tailles de Story sont stables par rapport à leurs estimations"
+  backlogs_statistics_sizing_consistent_failed: "Les tailles de Story varient par rapport à leurs estimations"
+  backlogs_statistics_sizing_stddev: "Ecart type des heures par rapport aux points: %{value} heures"
   backlogs_statistics_sprint_notes_available: Recently closed sprints have retrospective/review notes
   backlogs_statistics_sprint_notes_available_failed: Closed sprints without retrospective/review notes
   backlogs_statistics_sprints: Measured over %{value} sprints
@@ -27,9 +27,9 @@ fr:
   backlogs_statistics_sprints_sized_failed: Project has stories on active or recently closed sprints that were not sized
   backlogs_statistics_velocity: "Velocity: %{value}"
   backlogs_statistics_velocity_stddev: "Velocity standard deviation: %{value} points"
-  backlogs_statistics_yield: Project has good average yield
-  backlogs_statistics_yield_failed: Project has low average yield
-  backlogs_story: "Sc\xC3\xA9anario"
+  backlogs_statistics_yield: "Le Projet a un bon rendement en moyenne"
+  backlogs_statistics_yield_failed: "Le Projet a un faible rendement"
+  backlogs_story: "Sc\xC3\xA9nario"
   backlogs_story_tracker: "Tracker de sc\xC3\xA9narios"
   backlogs_task: !binary |
     VMOiY2hl
@@ -64,7 +64,7 @@ fr:
   field_release_start_date: "Date de d\xC3\xA9but de la release"
   field_story_points: "Points de sc\xC3\xA9narios"
   field_subject: Sujet
-  field_remaining_hours: Remaining (hours)
+  field_remaining_hours: Reste (heures)
   field_time_entry_comments: Time Entry Comments
   field_time_entry_hours: Time Entry Hours
   field_time_entry_spend_on: Time Entry Spend on
@@ -72,25 +72,25 @@ fr:
   field_tracker_id: Tracker ID
   field_velocity_based_estimate: "Estim\xC3\xA9 bas\xC3\xA9 sur la v\xC3\xA9locit\xC3\xA9"
   label_back_to_project: "Retour \xC3\xA0 la page produit"
-  label_backlogs: Carnets
-  label_backlogs_unconfigured: "Vous n'avez pas encore configur\xC3\xA9 les Carnets. Veuillez aller \xC3\xA0 {{administration}} > {{plugins}}, et cliquez sur le lien {{configure}} pour ce plugin. Une fois que vous aurez d\xC3\xA9fini ces champs, revenez \xC3\xA0 cette page pour utiliser l'outil"
+  label_backlogs: Backlogs
+  label_backlogs_unconfigured: "Vous n'avez pas encore configur\xC3\xA9 les Backlogs. Veuillez aller \xC3\xA0 {{administration}} > {{plugins}}, et cliquez sur le lien {{configure}} pour ce plugin. Une fois que vous aurez d\xC3\xA9fini ces champs, revenez \xC3\xA0 cette page pour utiliser l'outil"
   label_burndown: Progression
   label_chart_options: Options du graphique
-  label_close_completed_sprints: Close completed Sprints
-  label_column_width: Column width
-  label_download: Download
-  label_hide_completed_sprints: Hide Completed Sprints
+  label_close_completed_sprints: "Fermeture des Sprints complets"
+  label_column_width: Largeur de colonne
+  label_download: "Téléchargement"
+  label_hide_completed_sprints: "Cacher les Sprints complets"
   label_hours_ideal: "Heures id\xC3\xA9ales"
   label_hours_remaining: Heures restantes
   label_hours_required_burn_rate: Taux de consommation requis (heures)
   label_hours: heures
   label_impediments: Obstacles
   label_master_backlog: "Carnet Ma\xC3\xAEtre"
-  label_new_sprint: New Sprint
-  label_new_story: New Story
-  label_no_data_to_show: No data to show
-  label_no_end: no end
-  label_no_start: no start
+  label_new_sprint: Nouveau Sprint
+  label_new_story: Nouvelle Story
+  label_no_data_to_show: "Aucune donnée à afficher"
+  label_no_end: Pas de fin
+  label_no_start: Pas de début
   label_not_prioritized: "non prioris\xC3\xA9s"
   label_points_accepted: "points accept\xC3\xA9s"
   label_points_burn_down: Bas
@@ -101,27 +101,27 @@ fr:
   label_points_to_accept: "points non accept\xC3\xA9s"
   label_points_to_resolve: "points non r\xC3\xA9solus"
   label_points: points
-  label_product_backlog: carnet du produit
-  label_product_cards: Cartes de carnet du produit
+  label_product_backlog: Backlog de produit
+  label_product_cards: Cartes du backlog de produit
   label_release: Release
   label_release_end_date: Date de fin de release
   label_release_new: Nouvelle release
   label_release_planning: Planification des releases
   label_release_plural: Releases
   label_release_start_date: "Date de d\xC3\xA9but de la release"
-  label_reset: Reset
+  label_reset: "Reinitialisation"
   label_scrum_statistics: Statistiques du Scrum
   label_select_all: "S\xC3\xA9lectionner tout"
-  label_show_completed_sprints: Show Completed Sprints
-  label_sprint_backlog: carnet du sprint
+  label_show_completed_sprints: "Afficher les sprints complets"
+  label_sprint_backlog: Backlog de sprint
   label_sprint_cards: Cartes de sprint
-  label_sprint_impediments: Bloquants du Sprint
+  label_sprint_impediments: Obstacles au Sprint
   label_sprint_name: Sprint "{{name}}"
   label_stories: "Sc\xC3\xA9narios"
   label_stories_tasks: "Sc\xC3\xA9narios/T\xC3\xA2ches"
   label_task_board: "Tableau des t\xC3\xA2ches"
   label_webcal: Fil Calendrier Web
-  rb_auto_refresh: Auto-refresh backlogs/taskboard (seconds)
+  rb_auto_refresh: "Rafraîchissement auto des backlogs et du tableau de tâches (secondes)"
   rb_label_copy_tasks: "Copier t\xC3\xA2ches"
   rb_label_copy_tasks_all: Toutes
   rb_label_copy_tasks_none: Aucune
@@ -129,7 +129,7 @@ fr:
   rb_label_link_to_original: "Inclure le lien vers le sc\xC3\xA9nario original"
   rb_label_timelog_disable: "D\xC3\xA9sactiver"
   rb_label_timelog_enable: Activer
-  rb_show_burndown_in_sidebar: Show burndown chart in issues sidebar
+  rb_show_burndown_in_sidebar: "Voir le diagramme de burndown dans la barre latérale"
   rb_task_cards_stories_then_tasks: "Tous les sc\xC3\xA9narii d'abord, les t\xC3\xA2ches ensuite"
   rb_task_cards_story_follows_tasks: "T\xC3\xA2ches suivies par leur sc\xC3\xA9nario"
   rb_task_cards_tasks_follow_story: "Sc\xC3\xA9narii suivis par leur t\xC3\xA2che"
@@ -139,15 +139,15 @@ fr:
   release_update_snapshot_today: "Mettre \xC3\xA0 jour les points de sc\xC3\xA9nario du jour"
   remaining_story_points: "points de sc\xC3\xA9nario restants"
   story_description: Description
-  story_estimation_hours: Estimation (hours)
+  story_estimation_hours: Estimation (heures)
   story_points: Points
-  story_remaining_hours: Remaining (hours)
-  story_spent_time: Spent Time
+  story_remaining_hours: Restant (heures)
+  story_spent_time: "Temps passé"
   story_status: Status
-  today_not_in_release_msg: La date actuelle n'est pas dans l'intervalle des dates de la release. Voulez-vous vraiment sauvegarder un snapshot ?
+  today_not_in_release_msg: "La date actuelle n'est pas dans l'intervalle des dates de la release. Voulez-vous vraiment sauvegarder un instantané ?"
   today_not_in_release_warning: "Avertissement : la date actuelle n'est dans l'intervalle des dates de la release."
   todo_issue_summary: "{{type}}: {{summary}}"
-  use_free_text_if_empty: "Utiliser un champ texte au lieu d'une liste d\xC3\xA9roulante si c'est vide"
+  use_free_text_if_empty: "Utiliser un champ texte au lieu d'une liste d\xC3\xA9roulante si celle-ci est vide"
   warning_reset_sprint: "VOUS ALLEZ R\xC3\x89INITIALISER CE SPRINT !\n\n\
     \\xC3\\xAAtes-vous certain de vouloir faire cela ? R\\xC3\\xA9initialiser un sprint\n\
     aura les effets suivants sur les sc\\xC3\\xA9narii et les t\\xC3\\xA2ches :\n\n\
